@@ -1,0 +1,78 @@
+python: can't open file 'app.py ': [Errno 2] No such file or directory
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "app.py", line 23, in <module>
+    app.run(host="0.0.0.0", port=5000)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib64/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "app.py", line 23, in <module>
+    app.run(host="0.0.0.0", port=5000)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib64/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "app.py", line 23, in <module>
+    app.run(host="0.0.0.0", port=5000)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib64/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+python: can't open file 'app.py ': [Errno 2] No such file or directory
+python: can't open file 'app.py ': [Errno 2] No such file or directory
